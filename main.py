@@ -41,6 +41,8 @@ def message():
 def hello():
     data = request.json
 
+    logger.debug({'a': 1, 'b': 2})
+
     try:
         number = data['number']
         result = square(number)
