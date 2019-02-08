@@ -23,3 +23,4 @@ class D(B, C):
 
 if __name__ == '__main__':
     test = D()
+    print(D.__mro__)

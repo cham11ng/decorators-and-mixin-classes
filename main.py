@@ -1,9 +1,9 @@
+from http import HTTPStatus
+from flask import Flask, jsonify, request
+
 import config
 import constants
 import decorators
-
-from http import HTTPStatus
-from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
